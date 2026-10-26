@@ -1,0 +1,5 @@
+node_modules
+.next
+mysql_data
+*.log
+.env*.local
