@@ -1,0 +1,93 @@
+{
+  "ride_telemetry": [
+    {
+      "telemetry_id": "TLM-101-01",
+      "ride_id": 1,
+      "driver_id": 1,
+      "timestamp": "2026-10-26T08:23:37.102Z",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          77.5348,
+          12.9352
+        ]
+      },
+      "speed_kmph": 45.2,
+      "heading": 140,
+      "current_segment": "Banashankari Ring Road",
+      "next_stop": "JP Nagar 6th Phase",
+      "estimated_delay_mins": 2,
+      "battery_fuel_level_pct": 82
+    },
+    {
+      "telemetry_id": "TLM-101-02",
+      "ride_id": 1,
+      "driver_id": 1,
+      "timestamp": "2026-10-26T08:22:37.104Z",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          77.5671,
+          12.9174
+        ]
+      },
+      "speed_kmph": 38,
+      "heading": 135,
+      "current_segment": "Silk Board Flyover Approach",
+      "next_stop": "Silk Board",
+      "estimated_delay_mins": 5,
+      "battery_fuel_level_pct": 80
+    },
+    {
+      "telemetry_id": "TLM-201-01",
+      "ride_id": 2,
+      "driver_id": 3,
+      "timestamp": "2026-10-26T08:23:37.104Z",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          77.6229,
+          12.9172
+        ]
+      },
+      "speed_kmph": 52,
+      "heading": 160,
+      "current_segment": "Electronic City Elevated Expressway",
+      "next_stop": "EC Campus Tech Gate",
+      "estimated_delay_mins": 0,
+      "battery_fuel_level_pct": 74
+    }
+  ],
+  "ride_chat_logs": [
+    {
+      "chat_id": "MSG-001",
+      "ride_id": 1,
+      "sender_id": 2,
+      "sender_name": "Ananya Iyer",
+      "sender_role": "PASSENGER",
+      "message": "Hi Aarav! Standing at Banashankari Metro Pillar #42 near the ATM.",
+      "message_type": "TEXT",
+      "timestamp": "2026-10-26T08:18:37.104Z"
+    },
+    {
+      "chat_id": "MSG-002",
+      "ride_id": 1,
+      "sender_id": 1,
+      "sender_name": "Aarav Sharma",
+      "sender_role": "DRIVER",
+      "message": "Great! Driving the white i20 (KA-05-MQ-4192). Arriving in 3 minutes.",
+      "message_type": "TEXT",
+      "timestamp": "2026-10-26T08:19:37.104Z"
+    },
+    {
+      "chat_id": "MSG-003",
+      "ride_id": 2,
+      "sender_id": 4,
+      "sender_name": "Priya Nair",
+      "sender_role": "PASSENGER",
+      "message": "Hi Rohan, will you be waiting at the Silk Board service road?",
+      "message_type": "TEXT",
+      "timestamp": "2026-10-26T08:20:37.104Z"
+    }
+  ]
+}
