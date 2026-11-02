@@ -3,7 +3,20 @@
 > **DBMS Experiential Learning – Level 3 Capstone Project**  
 > **Institution:** PES University, Bangalore  
 > **Course Instructor:** Dr. Nagasundari S  
-> **Architecture Paradigm:** Multi-Model (Relational SQL + Document NoSQL)
+> **Architecture Paradigm:** Multi-Model (Relational SQL + Document NoSQL)  
+> **Team Members:** **PES1UG24AM121** & **PES1UG24AM078**
+
+---
+
+## 📌 Project Deliverables & Submission Links
+
+- 📄 **Project Report (PDF Version):** [docs/DBMS_Level3_Project_Report_PESUPool.pdf](docs/DBMS_Level3_Project_Report_PESUPool.pdf)
+- 📝 **Project Report (DOCX Version):** [docs/DBMS_Level3_Project_Report_PESUPool.docx](docs/DBMS_Level3_Project_Report_PESUPool.docx)
+- 📑 **Project Report (Markdown Version):** [docs/DBMS_Level3_Project_Report_PESUPool.md](docs/DBMS_Level3_Project_Report_PESUPool.md)
+- 🗄️ **Relational DDL Schema & Triggers:** [sql/01_schema.sql](sql/01_schema.sql)
+- 🌱 **Database Population & Seed Data:** [sql/02_seed.sql](sql/02_seed.sql)
+- 📊 **Analytical SQL Queries (Reports):** [sql/03_queries.sql](sql/03_queries.sql)
+- 🚀 **Interactive Web Application:** Next.js 14 Web Interface at `http://localhost:3000`
 
 ---
 
@@ -254,9 +267,9 @@ erDiagram
 
 ---
 
-## 8. Team Member Contributions & Roles
+## 8. Team Member Contributions & Rubric Mapping
 
-| Team Member | Core Responsibilities |
-| :--- | :--- |
-| **Team Member 1** | Relational Database Design, ER Modeling, Normalization (3NF), DDL/DML Schema, ACID Stored Procedures, Triggers, and Analytical Reports Backend. |
-| **Team Member 2** | Next.js Fullstack Web Application, NoSQL MongoDB Telemetry Integration, Real-Time In-Ride Chat, UI/UX Dashboards, and Documentation. |
+| Team Member | SRN | Institutional Email | Key Responsibilities & Module Ownership |
+| :--- | :--- | :--- | :--- |
+| **Team Member 1** | **PES1UG24AM121** | pes1ug24am121@pesu.pes.edu | Relational Database Design, ER Modeling, 3NF Normalization Analysis, DDL/DML Schema (`01_schema.sql`, `02_seed.sql`), ACID Stored Procedures (`sp_book_ride`, `sp_cancel_booking`), 5 Database Triggers, and B-Tree Indexing Strategy. |
+| **Team Member 2** | **PES1UG24AM078** | pes1ug24am078@pesu.pes.edu | Next.js 14 Fullstack Web Architecture, RESTful API Route Handlers, MongoDB NoSQL Telemetry Pipeline, Geospatial Breadcrumb Tracking, Analytical Queries (`03_queries.sql`), UI/UX Reports Dashboard, and Comprehensive Project Documentation. |
